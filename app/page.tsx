@@ -13,7 +13,7 @@ export default function Home() {
       </div>
       <div className="flex flex-row gap-10">
         <button className="p-3 w-[max-content] bg-black text-white rounded-lg">Request Demo</button>
-        <button className="p-3 w-[max-content] border border-black bg-slate-50 rounded-lg">Try for free</button>
+        <a href="/apiFetch" className="p-3 w-[max-content] border border-black bg-slate-50 rounded-lg">Try for free</a>
       </div>
     </main>
   );
