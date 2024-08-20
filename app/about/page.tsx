@@ -1,7 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
 
-export default function Home() {
+export default function About() {
   return (
     <main className="h-screen w-full flex flex-col gap-2 justify-center items-center bg-white text-black">
       <div className="p-10 flex flex-col gap-5 text-center">
@@ -11,10 +10,6 @@ export default function Home() {
         <p className="text-lg">
           In this tutorial, we will create a simple Next.js application.
         </p>
-      </div>
-      <div className="flex flex-row gap-10">
-        <button className="p-3 w-[max-content] bg-black text-white rounded-lg">Request Demo</button>
-        <Link href="/about" className="p-3 w-[max-content] border border-black bg-slate-50 rounded-lg">Try for free</Link>
       </div>
     </main>
   );
