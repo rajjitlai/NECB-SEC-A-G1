@@ -3,10 +3,19 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex h-screen flex-col items-center p-24 gap-5 justify-center">
-      <h1 className="text-4xl">The creative platforn for cross function work</h1>
-      <p>your creative process with design the power of creating without limits</p>
-      <button className="p-3 border border-black">try</button>
+    <main className="h-screen w-full flex flex-col gap-2 justify-center items-center bg-white text-black">
+      <div className="p-10 flex flex-col gap-5 text-center">
+        <h1 className="text-[45px] font-bold">
+          This is the <span className="text-gray-600">basic</span> tutorial of NEXT JS
+        </h1>
+        <p className="text-lg">
+          In this tutorial, we will create a simple Next.js application.
+        </p>
+      </div>
+      <div className="flex flex-row gap-10">
+        <button className="p-3 w-[max-content] bg-black text-white rounded-lg">Request Demo</button>
+        <Link href="/about" className="p-3 w-[max-content] border border-black bg-slate-50 rounded-lg">Try for free</Link>
+      </div>
     </main>
   );
 }
