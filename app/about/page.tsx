@@ -11,6 +11,7 @@ export default function About() {
           In this tutorial, we will create a simple Next.js application.
         </p>
       </div>
+     
     </main>
   );
 }
