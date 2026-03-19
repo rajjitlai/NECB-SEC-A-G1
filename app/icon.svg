@@ -1,0 +1,27 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M50 5L90 25V75L50 95L10 75V25L50 5Z"
+    stroke="url(#logo-gradient)"
+    stroke-width="8"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M35 40H65V60H50V50"
+    stroke="white"
+    stroke-width="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M50 35V65"
+    stroke="white"
+    stroke-width="10"
+    stroke-linecap="round"
+  />
+  <defs>
+    <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f3ff" />
+      <stop offset="100%" stop-color="#ff00ff" />
+    </linearGradient>
+  </defs>
+</svg>
