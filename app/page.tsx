@@ -4,19 +4,12 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="h-screen w-full flex flex-col gap-2 justify-center items-center bg-white text-black">
-      <div className="p-10 flex flex-col gap-5 text-center">
-        <h1 className="text-[45px] font-bold">
-          This is the <span className="text-gray-600">basic</span> tutorial of NEXT JS
-        </h1>
-        <p className="text-lg">
-          In this tutorial, we will create a simple Next.js application.
-        </p>
-      </div>
-      <div className="flex flex-row gap-10">
-        <button className="p-3 w-[max-content] bg-black text-white rounded-lg">Request Demo</button>
-        <Link href="/about" className="p-3 w-[max-content] border border-black bg-slate-50 rounded-lg">Try for free</Link>
-      </div>
+    <main className="flex h-screen flex-col items-center justify-between p-24">
+        <div className="flex flex-col items-center">
+          <h1 className="text-4xl font-bold">Here we create project that we desire</h1>
+          <p className="pt-10 pb-20 text-center">wellcome to the page start by creating a source code in visual studio code</p>
+          <button className="p-2  border border-black ">ENTER</button>
+        </div>
     </main>
   );
 }
