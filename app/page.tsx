@@ -1,7 +1,4 @@
-
-import Image from "next/image";
 import Link from "next/link";
-
 export default function Home() {
   return (
     <main className="h-screen w-full flex flex-col gap-2 justify-center items-center bg-white text-black">
