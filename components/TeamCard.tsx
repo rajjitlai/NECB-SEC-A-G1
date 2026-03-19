@@ -26,13 +26,13 @@ export default function TeamCard({ user, delay }: { user: Contributor, delay: nu
         {/* Avatar with Glow */}
         <div className="relative w-24 h-24 rounded-full p-[2px] bg-gradient-to-r from-neon-cyan to-neon-pink group-hover:scale-110 transition-transform duration-500">
           <div className="relative w-full h-full rounded-full overflow-hidden bg-background">
-            <Image 
-              src={user.avatar_url} 
-              alt={user.login} 
-              fill 
+            <Image
+              src={user.avatar_url}
+              alt={user.login}
+              fill
+              sizes="(max-width: 768px) 96px, 96px"
               className="object-cover"
-            />
-          </div>
+            />          </div>
           {/* Animated Glow behind avatar */}
           <div className="absolute inset-0 rounded-full blur-lg bg-neon-cyan/30 group-hover:bg-neon-cyan/50 -z-10 transition-all" />
         </div>
